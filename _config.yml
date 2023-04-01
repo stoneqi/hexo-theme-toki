@@ -1,11 +1,19 @@
 Menu:
-  Home: /
-  Archives: /archives/
+  Home: 
+    Name: 首页
+    Path: /
+  Archives: 
+    Name: 归档
+    Path: /archives/
   # About: /about/
   # Category: /category_archive
   # Tag: /tag_archive
-  Github: https://github.com/vevlins/
-  RSS: /atom.xml
+  Github: 
+    Name: GitHub
+    Path: https://github.com/vevlins/
+  RSS: 
+    Name: RSS
+    Path: /atom.xml
   Search: true
   
 Site:
