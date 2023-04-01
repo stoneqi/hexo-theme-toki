@@ -15,7 +15,7 @@
             <% if( item !== 'Search'){%>
                 <li class="menu-item">
                     <a href="<%- url_for(theme.Menu[item].Path) %>" class="menu-item-link">
-                        <%= item.Name %>
+                        <%= theme.Menu[item].Name %>
                     </a>
                 </li>
             <%}%>
